@@ -1,10 +1,277 @@
 <!DOCTYPE html>
 <html>
+
 <head>
 	<title>VB HTML and CSS Final Assignment</title>
 	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link href='https://fonts.googleapis.com/css?family=Open Sans' rel='stylesheet'>
 </head>
-<body>
 
+<body>
+	<!-- <div class="container"> -->
+		<div class="content">
+			<nav class="navbar">
+				<div class="logo">
+					<h1>CEO BLOG</h1>
+				</div>
+				<div class="menu">
+					<a href="#" class="active">Blog</a>
+					<a href="#">Links</a>
+					<a href="#">Links</a>
+					<a href="#">Links</a>
+				</div>
+			</nav>
+			<div class="about">
+				<div class="details">
+					<div class="profile">
+						<img class="profileimg" src="images/steve.jpg" alt="steve" height="140px" width="140px">
+					</div>
+					<div class="description">
+						<h1>Steve jobs</h1>
+						<h5>CEO, Apple INC</h5>
+						<p>Lorem ipsum dolor sit amet, vis eu prima albucius. Dolorum laoreet cum an, eos probo
+							scribentur an, te sea copiosae quaestio. At nam debitis mnesarchum scripserit. Mea ea fugit
+							viris, eos no sumo erant oratio, eum veniam iuvaret no. Modus menandri comprehensam vis ei.
+							Ex etiam vitae partiendo qui, sed ea voluptatum inciderint cotidieque.</p>
+					</div>
+					<div class="icon-bar">
+						<img class="fbimg" src="images/icon-fb.png" alt="fb" height="35px" width="35px">
+						<img class="fbimg" src="images/icon-twitter.png" alt="twitter" height="35px" width="35px">
+						<img class="fbimg" src="images/icon-linkedin.png" alt="linkdin" height="35px" width="35px">
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="leftcolumn">
+					<div class="card">
+						<h4 class="list">CATEGORIES</h4>
+						<div class="category"><div id="circleactive"></div><div class="opt1">Communication</div></div>
+						<div class="category"><div id="circle"></div><div class="opt1">Leadership</div></div>
+						<div class="category"><div id="circle"></div><div class="opt1">Emotional States</div></div>
+						<div class="category"><div id="circle"></div><div class="opt1">Habits</div></div>
+						<div class="category"><div id="circle"></div><div class="opt1">Inspiration</div></div>
+						<div class="category"><div id="circle"></div><div class="opt1">Journalling</div></div>
+						<div class="category"><div id="circle"></div><div class="opt1">Leadership</div></div>	
+						<div class="category"><div id="circle"></div><div class="opt1">Travel</div></div>	
+						<div class="category"><div id="circle"></div><div class="opt1">Nature</div></div>					
+					</div>
+					<div class="card">
+						<h5 class="implinks">Importat Link</h5>
+						<div class="impdetails">
+                        <h4>Exceteur sint.</h4>
+						<p>Lorem ipsum dolor sit amet, vis eu prima albucius. Dolorum laoreet cum an, 
+							eos probo scribentur an, te sea copiosae quaestio. At nam debitis mnesarchum scripserit</p>
+						<p><img src="images/icon-public.png" width="12px" height="12px"><span>webpage</span></p>
+					</div>
+					<div class="impdetails">
+                        <h4>Exceteur sint.</h4>
+						<p>Lorem ipsum dolor sit amet, vis eu prima albucius. Dolorum laoreet cum an, 
+							eos probo scribentur an, te sea copiosae quaestio. At nam debitis mnesarchum scripserit</p>
+						<p><img src="images/icon-public.png" width="12px" height="12px"><span>webpage</span></p>
+					</div>
+					<div class="impdetails">
+                        <h4>Exceteur sint.</h4>
+						<p>Lorem ipsum dolor sit amet, vis eu prima albucius. Dolorum laoreet cum an, 
+							eos probo scribentur an, te sea copiosae quaestio. At nam debitis mnesarchum scripserit</p>
+						<p><img src="images/icon-public.png" width="12px" height="12px"><span>webpage</span></p>
+					</div>
+					</div>
+				</div>
+				<div class="rightcolumn">
+					<div class="card" onclick="location.href='../vb-html-css-final-assignment/detail.html'" style="cursor:pointer">
+						<img src="images/blog-header.jpg" alt="blogheader" height="20%" width="100%">
+						<div class="latestpost">
+							<span class="latestpost item">&#x25BA</span>
+							<p class="latestpost item">Latest Post</p>
+							<h5 class="latestpost item" id="Leadership">LEADERSHIP</h5>
+						</div>
+						<h1 class="homeblogtitle">You Haven't Hit Your Peak Yet!</h1>
+						<p>At quod facilis ius, eam case complectitur ut. Fugit percipit qualisque ea sea,
+							mel autem veniam ut. Ad nobis essent scribentur mei. Has recteque patrioque dissentias an,
+							eu nullam quodsi sea, iusto affert laudem pro in. Eam an dolorem accusamus percipitur,
+							eos enim rebum noster ei.
+						</p>
+						<p>Sed no officiis torquatos quaerendum, ne causae copiosae vis. Eam cu deleniti molestie
+							sadipscing, at mel vidit paulo blandit, euismod interesset ius ut.
+							Iriure abhorreant vis no, ex nam cibo mazim, purto interesset et duo. Ut eos soluta feugait,
+						</p>
+						<a href="../vb-html-css-final-assignment/detail.html" class="readlink"><strong>Read Full Article</strong> </a>
+						<div>
+							<div>
+								<div class="likeshare">
+									<img src="images/icon-comment.png" alt="comment" height="25px" width="25px">
+									<span>10</span>
+									<img src="images/icon-heart.png" alt="like" height="25px" width="25px">
+									<span> 10</span>
+									<img class="nextimg" src="images/iocn-next.png" alt="share" height="25px"
+										width="25px">
+								</div>
+								<div class="articledetails">
+									<div class="jonesdiv">
+										<img src="images/johne.jpg" alt="johne" height="70px" width="70px">
+										<div class="jonedetails">
+											<h3>Masium Jones</h3>
+											<p>Lorem ipsum dolor sit amet, vis eu prima albucius. Dolorum laoreet cum
+												an, eos probo scribentur an, te sea copiosae quaestio. At nam debitis
+												mnesarchum scripserit.
+												Mea ea fugit viris, eos no sumo erant oratio, eum veniam iuvaret no.</p>
+											<p class="sharemore"><a href="#">Like</a><a href="#">Reply</a><a
+													href="#">share</a><a href="#">more</a><span>4 hours ago</span></p>
+											<div class="jamesdiv">
+												<img src="images/james.jpg" alt="james" height="50px" width="50px">
+												<div class="jamesdetails">
+													<h3>James Bolt</h3>
+													<p>Lorem ipsum dolor sit amet, vis eu prima albucius. Dolorum
+														laoreet cum an,</p>
+													<p class="sharemore"><a href="#">Like</a><a href="#">Reply</a><a
+															href="#">share</a><a href="#">more</a><span>4 hours
+															ago</span></p>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="cardsrow">
+						<div class="cardscolumn">
+							<div class="cardscard">
+								<img class="cardsimg" src="images/rblog-1.jpg" alt="cardone" width="100%" height="250px">
+								<div class="cardspost">
+									<h6 class="cardscategoryone">LEADERSHIP</h6>
+								     <p>2 days ago / 3 min read</p>
+							    </div>
+								<h2 class="cardsheading">7 Secrets For Leadership Success</h2>
+								<p class="cardsdescription">Mei patrioque disputando eu, te sint postea vel, et purto habemus qui. Cum sanctus neglegentur ne. Cum in quas instructior, 
+									eu his modo consul reprehendunt. Quo esse cetero id, cu enim blandit eam. Qui an lucilius insolens repudiandae....</p>
+									 <div class="likeshare">
+										<img src="images/icon-comment.png" alt="comment" height="25px" width="25px">
+										<span>10</span>
+										<img src="images/icon-heart.png" alt="like" height="25px" width="25px">
+										<span> 10</span>
+										<img class="nextimg" src="images/icon-share.png" alt="share" height="25px"
+											width="25px">
+									</div>
+							</div>
+						</div>
+						<div class="cardscolumn">
+							<div class="cardscard">
+								<img class="cardsimg" src="images/rblog-2.jpg" alt="cardone" width="100%" height="250px">
+								<div class="cardspost">
+									<h6 class="cardscategorytwo">HABIT</h6>
+								     <p>2 days ago / 3 min read</p>
+							    </div>
+								<h2 class="cardsheading">Est dignissimos perspiciatis nam eos</h2>
+								<p class="cardsdescription">Mei patrioque disputando eu, te sint postea vel, et purto habemus qui. Cum sanctus neglegentur ne. Cum in quas instructior, 
+									eu his modo consul reprehendunt. Quo esse cetero id, cu enim blandit eam. Qui an lucilius insolens repudiandae.</p>
+									 <div class="likeshare">
+										<img src="images/icon-comment.png" alt="comment" height="25px" width="25px">
+										<span>10</span>
+										<img src="images/icon-heart.png" alt="like" height="25px" width="25px">
+										<span> 10</span>
+										<img class="nextimg" src="images/icon-share.png" alt="share" height="25px"
+											width="25px">
+									</div>
+							</div>
+						</div>
+					</div>
+					<div class="cardsrow">
+						<div class="cardscolumn">
+							<div class="cardscard">
+								<img class="cardsimg" src="images/rblog-1.jpg" alt="cardone" width="100%" height="250px">
+								<div class="cardspost">
+									<h6 class="cardscategoryone">LEADERSHIP</h6>
+								     <p>2 days ago / 3 min read</p>
+							    </div>
+								<h2 class="cardsheading">7 Secrets For Leadership Success</h2>
+								<p class="cardsdescription">Mei patrioque disputando eu, te sint postea vel, et purto habemus qui. Cum sanctus neglegentur ne. Cum in quas instructior, 
+									eu his modo consul reprehendunt. Quo esse cetero id, cu enim blandit eam. Qui an lucilius insolens repudiandae....</p>
+									 <div class="likeshare">
+										<img src="images/icon-comment.png" alt="comment" height="25px" width="25px">
+										<span>10</span>
+										<img src="images/icon-heart.png" alt="like" height="25px" width="25px">
+										<span> 10</span>
+										<img class="nextimg" src="images/icon-share.png" alt="share" height="25px"
+											width="25px">
+									</div>
+							</div>
+						</div>
+						<div class="cardscolumn">
+							<div class="cardscard">
+								<img class="cardsimg" src="images/rblog-2.jpg" alt="cardone" width="100%" height="250px">
+								<div class="cardspost">
+									<h6 class="cardscategorytwo">HABIT</h6>
+								     <p>2 days ago / 3 min read</p>
+							    </div>
+								<h2 class="cardsheading">Est dignissimos perspiciatis nam eos</h2>
+								<p class="cardsdescription">Mei patrioque disputando eu, te sint postea vel, et purto habemus qui. Cum sanctus neglegentur ne. Cum in quas instructior, 
+									eu his modo consul reprehendunt. Quo esse cetero id, cu enim blandit eam. Qui an lucilius insolens repudiandae.</p>
+									 <div class="likeshare">
+										<img src="images/icon-comment.png" alt="comment" height="25px" width="25px">
+										<span>10</span>
+										<img src="images/icon-heart.png" alt="like" height="25px" width="25px">
+										<span> 10</span>
+										<img class="nextimg" src="images/icon-share.png" alt="share" height="25px"
+											width="25px">
+									</div>
+							</div>
+						</div>
+					</div>
+					<div class="cardsrow">
+						<div class="cardscolumn">
+							<div class="cardscard">
+								<img class="cardsimg" src="images/rblog-1.jpg" alt="cardone" width="100%" height="250px">
+								<div class="cardspost">
+									<h6 class="cardscategoryone">LEADERSHIP</h6>
+								     <p>2 days ago / 3 min read</p>
+							    </div>
+								<h2 class="cardsheading">7 Secrets For Leadership Success</h2>
+								<p class="cardsdescription">Mei patrioque disputando eu, te sint postea vel, et purto habemus qui. Cum sanctus neglegentur ne. Cum in quas instructior, 
+									eu his modo consul reprehendunt. Quo esse cetero id, cu enim blandit eam. Qui an lucilius insolens repudiandae....</p>
+									 <div class="likeshare">
+										<img src="images/icon-comment.png" alt="comment" height="25px" width="25px">
+										<span>10</span>
+										<img src="images/icon-heart.png" alt="like" height="25px" width="25px">
+										<span> 10</span>
+										<img class="nextimg" src="images/icon-share.png" alt="share" height="25px"
+											width="25px">
+									</div>
+							</div>
+						</div>
+						<div class="cardscolumn">
+							<div class="cardscard">
+								<img class="cardsimg" src="images/rblog-2.jpg" alt="cardone" width="100%" height="250px">
+								<div class="cardspost">
+									<h6 class="cardscategorytwo">HABIT</h6>
+								     <p>2 days ago / 3 min read</p>
+							    </div>
+								<h2 class="cardsheading">Est dignissimos perspiciatis nam eos</h2>
+								<p class="cardsdescription">Mei patrioque disputando eu, te sint postea vel, et purto habemus qui. Cum sanctus neglegentur ne. Cum in quas instructior, 
+									eu his modo consul reprehendunt. Quo esse cetero id, cu enim blandit eam. Qui an lucilius insolens repudiandae.</p>
+									 <div class="likeshare">
+										<img src="images/icon-comment.png" alt="comment" height="25px" width="25px">
+										<span>10</span>
+										<img src="images/icon-heart.png" alt="like" height="25px" width="25px">
+										<span> 10</span>
+										<img class="nextimg" src="images/icon-share.png" alt="share" height="25px"
+											width="25px">
+									</div>
+							</div>
+						</div>
+					</div>
+					<!--pagination-->
+					<div class="pagination">
+					<section class="pagination-val">
+						<a href="#" class="active_pagin">1</a>
+						<a href="#">2</a>
+						<a href="#">3</a>
+					</section>
+					<a class="nextpage" href="#">Next</a>
+					</div>
+				</div>
+			</div>
+		<!-- </div> -->
 </body>
+
 </html>
